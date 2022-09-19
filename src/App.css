@@ -1,0 +1,72 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.nav{
+  background-color: orangered;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav ul{
+  list-style: none;
+  align-self:center;
+}
+.nav li {
+  float: left;
+  text-align: center;
+  width: 5em;
+  border-radius: 10px;
+  background-color: orange;
+}
+.nav a {
+  color: black;
+  
+}
+.bi-basket{
+  color: rebeccapurple;
+  position: absolute;
+  top: 3px;
+  right: 20px;
+}
+
+main{
+  width: 100%;
+  height: 100vw;
+  background-color: black;
+}
+main p{
+  color: orangered;
+  font-size: 50px;
+}
